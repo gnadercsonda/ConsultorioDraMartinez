@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ConsultorioDraMartinez
 {
-    public partial class Form1 : Form
+    public partial class OpcAgendarCita : Form
     {
-        public Form1()
+        public OpcAgendarCita()
         {
             InitializeComponent();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
