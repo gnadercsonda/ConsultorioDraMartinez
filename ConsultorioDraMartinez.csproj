@@ -86,6 +86,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos\AccesoDatos.cs" />
+    <Compile Include="LogicaNegocio\LogicaNegocio.cs" />
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,9 +144,6 @@
   <ItemGroup>
     <None Include="Resources\Screenshot_7.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AccesoDatos\" />
-    <Folder Include="LogicaNegocio\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
